@@ -67,7 +67,7 @@ if __name__ == "__main__":
     settling_time_psu = 2.5
     start_freq = 100  # Hz
     stop_freq = 500000  # Hz
-    amplitude_psu = 0.1 #need 1V to measure dB, this is peak to peak value
+    amplitude_psu = 0.1 #this is peak to peak value
     freq_multiplyer = 1.2
 
     rm = pyvisa.ResourceManager()
